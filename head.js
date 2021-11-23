@@ -14,5 +14,3 @@ const head = function(input) {
 
 
 
-assertEqual(head([]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
