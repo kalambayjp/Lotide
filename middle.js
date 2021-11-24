@@ -16,10 +16,11 @@ const middle = function(arr) {
     if (arr.length % 2 === 0) {
       middle.push(arr[Math.floor((arr.length - 1) / 2)]);
       middle.push(arr[Math.ceil((arr.length - 1) / 2)]);
-    } else if (arr.length % 2 !== 0) {
+    } else {
       middle.push(arr[(arr.length - 1) / 2]);
     }
   }
   return middle;
 };
 
+console.log(middle([1,2,3,4,5,6]));
