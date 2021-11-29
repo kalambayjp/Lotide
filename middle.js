@@ -7,6 +7,8 @@ const middle = function(arr) {
     } else {
       middle.push(arr[(arr.length - 1) / 2]);
     }
+  } else if (arr.length === 1) {
+    return arr
   }
   return middle;
 };

@@ -1,4 +1,8 @@
-const assertEqual = require('../assertEqual');
+const assert = require('chai').assert;
 const tail = require('../tail');
 
-console.log(assertEqual(tail('hello'), 'ello'));
+describe('tail()', () => {
+  it(`should return 'ello' from a string of 'hello'`, () => {
+    assert.strictEqual(tail('hello'), 'ello');
+  })
+});
