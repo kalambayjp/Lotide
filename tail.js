@@ -4,14 +4,3 @@ const tail = function(input) {
 
 
 module.exports = tail;
-
-
-
-
-
-
-
-
-
-
-
